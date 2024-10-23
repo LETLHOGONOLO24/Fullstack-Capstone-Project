@@ -6,8 +6,7 @@ import './RegisterPage.css';
 const AppContext = createContext();
 const [showerr, setShowerr] = useState('');
 
-const navigate = useNavigate();
-const { setIsLoggedIn } = useAppContext();
+
 
 function RegisterPage() {
     const [firstName, setFirstName] = useState('');
